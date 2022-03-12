@@ -17,7 +17,7 @@ int main (){
 	printf("Harga Awal Produk  : ");
 	scanf("%d", &i);
 	printf("Masukan Jenis Diskon  : ");
-	scanf("%s", &b);
+	scanf(" %c", &b);
 	
 	switch(b){
 		case 'A' :
