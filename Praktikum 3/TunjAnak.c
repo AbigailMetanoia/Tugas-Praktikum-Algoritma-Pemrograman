@@ -18,11 +18,11 @@ int main (){
 	scanf("%f", &g);
 	
 	if ( a < 3) {
-		T = a * (g/10);
+		T = a * (g*0.1);
 		printf(" Maka Tunjangan yang harus dibayar sebesar  : %f", T);
     }
 	else{
-		T = a * (3/10);
+		T = 3*0.1 *g;
 		printf(" Maka Tunjangan yang harus dibayar sebesar  : %f", T);
 	}
 	return 0;
