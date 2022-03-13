@@ -19,11 +19,11 @@ int main (){
 	
 	if ( a < 3) {
 		T = a * (g*0.1);
-		printf(" Maka Tunjangan yang harus dibayar sebesar  : %f", T);
+		printf(" Maka Tunjangan yang harus dibayar sebesar  : %.2f", T);
     }
 	else{
 		T = 3*0.1 *g;
-		printf(" Maka Tunjangan yang harus dibayar sebesar  : %f", T);
+		printf(" Maka Tunjangan yang harus dibayar sebesar  : %.2f", T);
 	}
 	return 0;
 }
