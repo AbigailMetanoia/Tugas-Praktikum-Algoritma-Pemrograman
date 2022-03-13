@@ -13,9 +13,9 @@ int main (){
 	//Algoritma
 	printf("Membuat Program Tunjangan Anak \n");
 	printf("Jumlah Anak  : ");
-	scanf("%d", &a);
+	scanf("%f", &a);
 	printf("Gaji Pokok  : ");
-	scanf("%d", &g);
+	scanf("%f", &g);
 	
 	if ( a < 3) {
 		T = a * (g/10);
