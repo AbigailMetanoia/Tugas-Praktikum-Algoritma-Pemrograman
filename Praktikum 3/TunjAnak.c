@@ -8,8 +8,7 @@
 
 int main (){
 	//Kamus
-	int a,g;
-	float T;
+	float T,a,g;
 	
 	//Algoritma
 	printf("Membuat Program Tunjangan Anak \n");
