@@ -10,10 +10,10 @@
 	//Kamus
 	int i,N, jarak, terKecil, terBesar;
 	
-	//Algoritma
-	printf("Membuat Program Selisih Ketinggian \n");
-	scanf("%d", &N);
-    	int T[N];
+    //Algoritma
+    printf("Membuat Program Selisih Ketinggian \n");
+    scanf("%d", &N);
+    int T[N];
     
     for (i = 0; i < N; i++) scanf("%d", &T[i]);
 
