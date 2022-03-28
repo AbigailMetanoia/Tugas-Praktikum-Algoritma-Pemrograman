@@ -9,27 +9,22 @@
 
 int main (){
 	//Kamus
-	int i,j,T,N,NBArray;
+	int i,j,N,NBArray;
 	
 	//Algoritma
-	printf("Membuat Program Penjumlahan sub Array \n");
-	printf("Masukan nilai N : ");
-	scanf("%d", &N);
-	
-	
-	
-	for(i = 1; i <= N; i++){
-			int T[i-1];
-			NBArray = 0;
-			
-	
-	for(i = 1; i <= N; i++){
-		for(j = i; j <= N; j++){
-			NBArray = NBArray + T[i-1];
-		}
-	}
-}
+	printf("Membuat Program Menghitung Array\n");
+    scanf("%d", &N);
+    int T[N];
+    NBArray = 0;
 
-	printf("%d", NBArray);
-	return 0;
+    for (i = 0; i < N; i++) scanf("%d", &T[i]);
+
+    for (i = 0; i < N; i++) {
+        for (j = i; j < N; j++) {
+            NBArray += T[j];
+        }
+    }
+    printf("%d", NBArray);
+    
+    return 0;
 }
