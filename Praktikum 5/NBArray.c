@@ -11,8 +11,8 @@ int main (){
 	//Kamus
 	int i,j,N,NBArray;
 	
-	//Algoritma
-	printf("Membuat Program Menghitung Array\n");
+    //Algoritma
+    printf("Membuat Program Menghitung Array\n");
     scanf("%d", &N);
     int T[N];
     NBArray = 0;
