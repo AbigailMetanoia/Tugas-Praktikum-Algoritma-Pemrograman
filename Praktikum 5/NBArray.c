@@ -13,6 +13,7 @@ int main (){
 	
     //Algoritma
     printf("Membuat Program Menghitung Array\n");
+    printf("Masukan nilai N : ");
     scanf("%d", &N);
     int T[N];
     NBArray = 0;
